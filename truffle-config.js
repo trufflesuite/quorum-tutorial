@@ -25,5 +25,12 @@ module.exports = {
       gas: 4500000,
       type: "quorum" // needed for Truffle to support Quorum
     }
+  },
+  compilers: {
+    solc: {
+      settings: {
+        evmVersion: "byzantium"
+      }
+    }
   }
 };
